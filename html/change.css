@@ -1,0 +1,57 @@
+@media only screen and (max-width: 900px) {
+    header {
+        height: auto;
+    }
+
+    header h1 {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    header ul {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .slogan blockquote {
+        font-size: 16px;
+    }
+
+    .shop {
+        flex-direction: column;
+    }
+
+    .image-slider {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .dessert {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .dessert div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
